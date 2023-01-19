@@ -14,14 +14,48 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 2rem 0;
 }
 
 a {
 	text-decoration: none;
+	color: rgb(65, 60, 60);
 }
 li {
 	list-style: none;
 	display: inline-block;
+	color: rgb(65, 60, 60);
+	padding: 0 2rem;
+	font-size: 1rem;
+}
+
+main {
+	display: flex;
+}
+.left-side-content {
+	height: 70vh;
+	width: 80%;
+}
+
+.right-side-content {
+	height: 40vh;
+	width: 30%;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 3rem;
+	width: 20rem;
+}
+
+.content p {
+	inline-size: 13rem;
 }
 
 .attribution {
@@ -34,6 +68,6 @@ li {
 }
 
 #main-image {
-	width: 400px;
-	height: 200px;
+	width: 50vw;
+	height: 40vh;
 }
