@@ -12,9 +12,13 @@ body {
 
 .navigation {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
 }
 
+a {
+	text-decoration: none;
+}
 li {
 	list-style: none;
 	display: inline-block;
@@ -27,4 +31,9 @@ li {
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+#main-image {
+	width: 400px;
+	height: 200px;
 }
