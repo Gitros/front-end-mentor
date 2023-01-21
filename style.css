@@ -60,7 +60,7 @@ main {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 	width: 20rem;
 }
 
@@ -76,6 +76,40 @@ button {
 	margin-top: 2rem;
 	width: 200px;
 	height: 50px;
+}
+hr {
+	color: rgb(75, 73, 73);
+	margin: 20px;
+}
+.info-content {
+	background-color: black;
+	color: white;
+	height: 100%;
+}
+
+.info-content h2 {
+	color: rgb(255, 145, 0);
+	padding: 20px;
+	font-size: 3rem;
+}
+
+.info-content h3 {
+	padding: 20px;
+	font-size: 2rem;
+}
+
+.info-content p {
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	color: rgb(199, 194, 194);
+}
+
+.blog {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	align-items: center;
 }
 
 .attribution {
